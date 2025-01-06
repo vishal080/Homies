@@ -4,7 +4,7 @@
   "description": "ecommerce site",
   "main": "server.js",
   "scripts": {
-     "build": "your_build_command_here",
+     "build": "npm run build",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
