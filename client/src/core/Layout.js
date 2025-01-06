@@ -1,66 +1,58 @@
 import React from 'react';
 import Menu from './Menu';
+
 import '../styles.css';
-// import Marquee from "react-fast-marquee";
 
 
 const Layout = ({ className, children }) => (
   <div>
     <Menu />
-    {/* Replace title and description with an image */}
     <div className='d-flex jumbotron mt-5 text-center'>
-      {/* <div className='jumbotron mt-5 text-center'> */}
       <marquee style={{ height:'115px' }}>
         <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
+          src="/download.png" 
           alt='Hoomies Banner'
-          // className='moving-image'
           style={{height:'100px' }}
         />
         <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
+          src="/download (2).png" 
+          alt='Hoomies Banner'
+          style={{height:'100px' }}
+          // style={{ maxWidth: '70%', height: '200%' }}
+        />
+        <img
+          src="/download (4).png" 
+          alt='Hoomies Banner'
+          style={{height:'100px'}}
+          // style={{ maxWidth: '70%', height: '200%' }}
+        />
+        <img
+          src="/download (4).png" 
+          alt='Hoomies Banner'
+          style={{height:'100px' }}
+          // style={{ maxWidth: '70%', height: '200%' }}
+        />
+        <img
+          src="/download (1).png" 
           alt='Hoomies Banner'
           // className='moving-image'
           style={{height:'100px' }}
           // style={{ maxWidth: '70%', height: '200%' }}
         />
         <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
+          src="/1-removebg-preview.png" 
           alt='Hoomies Banner'
-          // className='moving-image'
           style={{height:'100px' }}
-          // style={{ maxWidth: '70%', height: '200%' }}
         />
         <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
-          alt='Hoomies Banner'
-          // className='moving-image'
-          style={{height:'100px' }}
-          // style={{ maxWidth: '70%', height: '200%' }}
-        />
-        <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
-          alt='Hoomies Banner'
-          // className='moving-image'
-          style={{height:'100px' }}
-          // style={{ maxWidth: '70%', height: '200%' }}
-        />
-        <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
+          src="/30off-removebg-preview.png" 
           alt='Hoomies Banner'
           // className='moving-image'
           style={{height:'100px' }}
         />
         <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
+          src="/1-removebg-preview.png" 
           alt='Hoomies Banner'
-          // className='moving-image'
-          style={{height:'100px' }}
-        />
-        <img
-          src="1-removebg-preview.png" // <-- Replace with the correct path to your image
-          alt='Hoomies Banner'
-          // className='moving-image'
           style={{height:'100px' }}
         />
       </marquee>
@@ -71,3 +63,4 @@ const Layout = ({ className, children }) => (
 );
 
 export default Layout;
+

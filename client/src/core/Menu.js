@@ -265,7 +265,7 @@ const MaterialAppBar = ({ history }) => {
           </a>
           <a href='/' style={{ textDecoration: 'none' }}>
   <img 
-    src="logo-removebg-preview.png" 
+    src="/logo-removebg-preview.png" 
     alt="Logo" 
     style={{ height: '40px', width: 'auto' }} 
   />

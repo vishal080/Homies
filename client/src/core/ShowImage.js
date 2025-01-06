@@ -1,5 +1,6 @@
 import React from 'react';
 import { API } from '../config';
+import Layout from './Layout';
 
 const ShowImage = ({ item, url }) => (
   <div className='product-img' style={{height: '250px'}}>
