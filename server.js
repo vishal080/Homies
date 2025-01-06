@@ -22,7 +22,8 @@ const app = express();
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      process.env.MONGODB_URI,
+      
+      'mongodb+srv://yourhom6:hzzJ4GpVV24JgJG0@cluster0.mvmjj.mongodb.net/',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
